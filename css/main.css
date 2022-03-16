@@ -1,0 +1,48 @@
+.container{
+  width: 1140px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.list{
+  margin: 20px 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+
+.list-item1 , .list-item2 , .list-item3 , .list-item4, .list-item5, .list-item6{
+  display: none;
+}
+.list-html{
+  display: inline-block;
+
+}
+.list-item-img{
+  width: 300px;
+  height: 200px;
+  border-radius: 5px;
+}
+
+.btn{
+  position: relative;
+  animation-name: result;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  padding:10px 25px;
+  border-radius: 10px;
+  font-size: 25px;
+  color: #ffffff;
+
+}
+
+@keyframes result {
+  0%   {background-color:#ff0000;}
+  25%  {background-color:#ffff00;}
+  50%  {background-color:#0000ff; }
+  75%  {background-color:#008000; }
+  100% {background-color:#ff0000; }
+}
